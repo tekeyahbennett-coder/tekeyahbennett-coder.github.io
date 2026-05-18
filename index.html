@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Te'Keyah Bennett | IT Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">Te'Keyah Bennett</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Te'Keyah Bennett</h1>
+      <p class="hero-title">Information Technology Student & Developer</p>
+      <p class="hero-sub">Daytona State College &mdash; B.S. Information Technology (Expected May 2027)</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm an Information Technology student with a strong portfolio of software development, systems programming, and database design projects. I build full applications in Python, C#, and SQL — from ATM banking systems with 50+ unit tests to multi-threaded OS algorithm implementations.</p>
+          <p>My background in regulated healthcare and logistics environments has shaped how I work: with precision, accountability, and a safety-first mindset. I bring that same discipline to every line of code I write.</p>
+          <p>I'm seeking an entry-level IT role in software development, database administration, cybersecurity, or IT support where I can keep growing and contribute from day one.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">7+</span>
+            <span class="stat-label">GitHub Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Unit Tests Written</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Languages</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">CS Courses</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C# / .NET</span><span>Java</span><span>SQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Concepts</h3>
+          <div class="skill-tags">
+            <span>OOP</span><span>Concurrency & Threading</span><span>Data Structures</span><span>Unit Testing</span><span>CPU Scheduling</span><span>Memory Management</span><span>LINQ</span><span>Regex</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span>SQL Server</span><span>Relational Design</span><span>Normalization</span><span>ER Modeling</span><span>SSMS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-shield-alt"></i> Security & Systems</h3>
+          <div class="skill-tags">
+            <span>Linux Administration</span><span>Network+</span><span>Log Analysis</span><span>Firewall Config</span><span>Cybersecurity</span><span>Computer Architecture</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools</h3>
+          <div class="skill-tags">
+            <span>VS Code</span><span>Visual Studio 2022</span><span>SQL Server Management Studio</span><span>Git</span><span>GitHub</span><span>Microsoft Office</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-lang python">Python</span>
+            <span class="project-badge">⭐ Featured</span>
+          </div>
+          <h3>ATM Banking System</h3>
+          <p>Full-featured ATM simulation supporting 6 account types with PIN authentication, daily transaction limits, cash advances, and timestamped audit logging. Includes 50+ unit tests.</p>
+          <div class="project-tags">
+            <span>OOP</span><span>Unit Testing</span><span>Inheritance</span>
+          </div>
+          <a href="https://github.com/tekeyahbennett-coder/atm-banking-system" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <span class="project-lang web">HTML/CSS/JS</span>
+            <span class="project-badge live">🟢 Live</span>
+          </div>
+          <h3>CampusPlanner</h3>
+          <p>Deployed web app for student productivity with course management, assignment tracking, a scheduling calendar, deadline notifications, and full user authentication.</p>
+          <div class="project-tags">
+            <span>Web App</span><span>Auth</span><span>GitHub Pages</span>
+          </div>
+          <div class="project-links">
+            <a href="https://tekeyahbennett-coder.github.io/Study-App/" target="_blank" class="project-link">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/tekeyahbennett-coder/Study-App" target="_blank" class="project-link secondary">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-lang csharp">C#</span>
+          </div>
+          <h3>Concurrent Systems Suite</h3>
+          <p>Three OS algorithms implemented from scratch: Chandy-Misra Dining Philosophers, FIFO demand paging simulator, FCFS CPU scheduling, and producer-consumer synchronization.</p>
+          <div class="project-tags">
+            <span>Threading</span><span>Semaphores</span><span>OS Concepts</span>
+          </div>
+          <a href="https://github.com/tekeyahbennett-coder/concurrent-systems-suite" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-lang sql">SQL</span>
+          </div>
+          <h3>Food Truck Database</h3>
+          <p>Normalized 5-table relational schema (FoodTruck, MenuItems, Customers, Orders, OrderItems) with identity-based primary keys and foreign key relationships.</p>
+          <div class="project-tags">
+            <span>SQL Server</span><span>Normalization</span><span>ER Design</span>
+          </div>
+          <a href="https://github.com/tekeyahbennett-coder/food-truck-database" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-lang csharp">C#</span>
+          </div>
+          <h3>C# Application Suite</h3>
+          <p>Series of applications covering polymorphic class hierarchies, LINQ transformations, regex input validation, loan calculators, receipt generators, and data structure implementations.</p>
+          <div class="project-tags">
+            <span>OOP</span><span>LINQ</span><span>Regex</span><span>.NET 8</span>
+          </div>
+          <a href="https://github.com/tekeyahbennett-coder/csharp-application-suite" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-lang security">Security</span>
+          </div>
+          <h3>Applied Cybersecurity</h3>
+          <p>Hands-on security coursework including log analysis to detect unauthorized access attempts and firewall rule design applying least privilege and defense-in-depth principles.</p>
+          <div class="project-tags">
+            <span>Log Analysis</span><span>Firewall</span><span>Security</span>
+          </div>
+          <a href="https://github.com/tekeyahbennett-coder/applied-cybersecurity" target="_blank" class="project-link">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Administrative Assistant / Patient Care Technician</h3>
+            <p class="timeline-company">DaVita Dialysis &mdash; Daytona Beach, FL</p>
+            <p class="timeline-date">Mar 2023 – Jan 2024</p>
+            <ul>
+              <li>Managed inventory records and purchase orders in a HIPAA-regulated environment</li>
+              <li>Resolved billing discrepancies through cross-departmental communication</li>
+              <li>Maintained federal healthcare documentation compliance standards</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Sort Associate / Safety Committee Member</h3>
+            <p class="timeline-company">Amazon (DMO4) &mdash; Daytona Beach, FL</p>
+            <p class="timeline-date">Jul 2021 – Mar 2022</p>
+            <ul>
+              <li>Processed high-volume logistics data with strict accuracy standards</li>
+              <li>Contributed to safety committee initiatives improving workflow efficiency</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Direct Support Professional</h3>
+            <p class="timeline-company">Association for Individual Development &mdash; Aurora, IL</p>
+            <p class="timeline-date">Aug 2019 – Sep 2020</p>
+            <ul>
+              <li>Maintained compliance documentation in a regulated care environment</li>
+              <li>Followed structured protocols and emergency response procedures</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">I'm actively looking for entry-level IT opportunities. Feel free to reach out!</p>
+      <div class="contact-cards">
+        <a href="mailto:tekeyahbennett@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>tekeyahbennett@gmail.com</span>
+        </a>
+        <a href="tel:3317178707" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>(331) 717-8707</span>
+        </a>
+        <a href="https://github.com/tekeyahbennett-coder" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>github.com/tekeyahbennett-coder</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Te'Keyah Bennett &mdash; Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
